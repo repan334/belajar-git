@@ -1,0 +1,6 @@
+Berikut cara commit perubahan ke repo
+1. Stage semua perubahan | git add -A
+2. Commit | git commit -m "...."
+3. Push ke Github | git push origin main
+
+Selesai simple bukan??..
