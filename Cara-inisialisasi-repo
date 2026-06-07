@@ -1,0 +1,22 @@
+# 1. Masuk ke dalam folder proyek
+cd /path/ke/folder/refan
+
+# 2. Inisialisasi folder menjadi repository Git
+git init
+
+# 3. Menghubungkan folder lokal dengan remote repository 
+git remote add origin https://link-repo.git
+
+# 4. Menambahkan semua file di dalam folder ke staging area
+git add .
+
+# 5. Membuat commit pertama dengan pesan
+git commit -m "Commit pertama: Inisialisasi proyek"
+
+# 6. Mengubah branch default menjadi 'main' (jika belum)
+git branch -M main
+
+# 7. Mengunggah file ke remote repository
+git push -u origin main
+
+# selesai
