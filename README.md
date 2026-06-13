@@ -1,3 +1,2 @@
 # belajar-git
-ya belajar lah pake nanya
-belajar flutter
+belajar cara menggunakan git untuk menyimpan dan berkolaborasi tentang suatu project
