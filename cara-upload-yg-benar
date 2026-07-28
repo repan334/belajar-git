@@ -1,0 +1,35 @@
+kali ini kita belajar git ignore 
+.gitignore adalah file teks khusus di direktori utama (root) proyek yang berisi daftar pola nama file atau folder:
+
+1. Mencegah file ukuran besar atau sampah (seperti .venv, node_modules, __pycache__) ikut terunggah,
+2. Melindungi data rahasia atau informasi sensitif (seperti file .env yang berisi API key atau password) agar aman di komputer lokal Anda. 
+
+buat .gitignore di folder project. 
+-------------
+.venv/
+venv/
+.env
+__pycache__/
+*.log
+-------------
+
+inisialisasi git            | git init
+tambahkan ke staging        | git add . 
+lakukan commit              | git commit -m "commit pertama"
+Hubungkan ke repo           | git remote add origin <url_repositori>
+push                        | git push -u origin main
+
+jika sudah terlanjur upload .env / .venv ??
+Langkah memperbaikinya tanpa menghapus folder di komputer lokal.
+
+1. Buka terminal di folder proyek Anda.
+2. Hapus folder dari pelacakan Git (tapi tetap aman di komputer):
+- Untuk folder .venv: git rm -r --cached .venv 
+- Untuk file .env: git rm --cached .env 
+3. Buat atau perbarui file .gitignore di root proyek, lalu pastikan baris .venv/ dan .env sudah tertulis di dalamnya.
+4. Commit perubahan tersebut | git commit -m "Hapus .venv dan .env dari tracking Git"
+5. Kirim perubahan ke server (GitHub/GitLab) | git push origin main (atau sesuaikan nama branch Anda)
+
+
+
+
