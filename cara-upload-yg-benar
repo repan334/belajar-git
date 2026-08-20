@@ -30,6 +30,9 @@ Langkah memperbaikinya tanpa menghapus folder di komputer lokal.
 4. Commit perubahan tersebut | git commit -m "Hapus .venv dan .env dari tracking Git"
 5. Kirim perubahan ke server (GitHub/GitLab) | git push origin main (atau sesuaikan nama branch Anda)
 
+note kalau mau lihat yang ada di staging atau file apa yang udah masuk .gitignore : git status 
+janlupa masukin .env ke dalam .gitignore yakk tahnks 
+
 
 
 
